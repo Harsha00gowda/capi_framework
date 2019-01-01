@@ -1,0 +1,10 @@
+# It will ignore the below generated files
+
+*.idea
+*.class
+*.html
+
+
+#It don't include below folder files
+.idea/*
+../../.idea/

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Tests">
+
+	<test name="LoginWithValidCredTest" allow-return-values="true">
+		<classes>
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.EditRepairsContractTest" />
+		</classes>
+	</test>
+	
+
+
+
+</suite>
+

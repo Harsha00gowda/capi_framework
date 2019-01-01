@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Build Verification Tests">
+
+	<test name="Contractor Set Up Tests" parallel="false" allow-return-values="true" preserve-order="true">
+		<classes>
+			
+			<!--  class name="uk.co.capita.advantagecontractor.tests.contractsetup.contractmaindetails.CreateNewRepairsContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.contractmaindetails.EditRepairsContractTest" />
+			
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.priorities.CreatePriorityForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.priorities.EditPriorityTest" />		
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.priorities.DeletePriorityTest" />
+			
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.systemoptions.CreateSystemOptionsForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.systemoptions.EditSystemOptionsTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.systemoptions.DeleteSystemOptionsTest" />
+			
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.autopivaluebands.CreateAutoPIValBandTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.autopivaluebands.EditAutoPIValBandTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.autopivaluebands.DeleteAutoPIValBandTest" />
+			
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.jobtypes.CreateJobTypeForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.jobtypes.EditJobTypeTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.jobtypes.DeleteJobTypeTest" />
+			
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.attachcontractors.AddContractorToAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.attachcontractors.EditAttachedContractorTest" />
+		
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.operatives.CreateOperativeForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.operatives.EditOperativeTest" />
+			
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.contractdiary.CreateDiaryForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.contractdiary.EditDiaryTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.contractdiary.DeleteDiaryTest" />
+			
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.recharge.CreateRechargeForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.recharge.EditRechargeTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.recharge.DeleteRechargeTest" />
+			
+
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.sor.CreateSORForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.sor.EditSORTest" />
+
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.maintaincertificates.CreateCertificatesForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.maintaincertificates.EditCertificatesTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.maintaincertificates.DeleteCertificateTest" />
+
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.contactdetails.CreateContactDetailsForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.contactdetails.EditContactTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.contactdetails.DeleteContactTest" /-->
+
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.operativetrades.CreateOperativeTradesForAContractTest" />
+			<class name="uk.co.capita.advantagecontractor.tests.contractsetup.operativetrades.DeleteOperativeTradesTest" />
+
+
+
+
+
+
+		</classes>
+	</test>
+	
+
+
+
+</suite>
+

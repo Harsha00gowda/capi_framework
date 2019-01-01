@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Tests]">
+  <test name="LoginWithValidCredTest(failed)">
+    <classes>
+      <class name="uk.co.capita.advantagecontractor.tests.contractsetup.EditRepairsContractTest">
+        <methods>
+          <include name="isEnvUp"/>
+          <include name="tearDown"/>
+          <include name="editRepairsContract" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- uk.co.capita.advantagecontractor.tests.contractsetup.EditRepairsContractTest -->
+    </classes>
+  </test> <!-- LoginWithValidCredTest(failed) -->
+</suite> <!-- Failed suite [Regression Tests] -->

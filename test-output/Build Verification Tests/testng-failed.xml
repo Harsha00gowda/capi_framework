@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Build Verification Tests]">
+  <test name="Contractor Set Up Tests(failed)">
+    <classes>
+      <class name="uk.co.capita.advantagecontractor.tests.contractsetup.autopivaluebands.DeleteAutoPIValBandTest">
+        <methods>
+          <include name="isEnvUp"/>
+          <include name="tearDown"/>
+          <include name="deletePriority" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- uk.co.capita.advantagecontractor.tests.contractsetup.autopivaluebands.DeleteAutoPIValBandTest -->
+    </classes>
+  </test> <!-- Contractor Set Up Tests(failed) -->
+</suite> <!-- Failed suite [Build Verification Tests] -->

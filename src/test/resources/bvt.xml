@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Build Verification Tests">
+    <listeners>
+        <listener class-name="uk.co.capita.advantagecontractor.util.Listener"/>
+    </listeners>
+	<test name="Contractor Set Up Tests" parallel="false" allow-return-values="true" preserve-order="true">
+		<classes>
+			
+			<class name="uk.co.capita.advantagecontractor.roughwork.Test1" />
+			<class name="uk.co.capita.advantagecontractor.roughwork.Test2" />
+			
+			
+
+		</classes>
+	</test>
+	
+
+
+
+</suite>
+
